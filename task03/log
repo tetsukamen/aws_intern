@@ -1,0 +1,9 @@
+106  cd /var/www/html/
+107  sudo mkdir calc
+108  cd calc/
+109  sudo touch index.php
+111  cd ../
+116  sudo vim calc/index.php 
+126  sudo yum install php
+128  sudo vim /etc/httpd/conf/httpd.conf
+131  sudo reboot

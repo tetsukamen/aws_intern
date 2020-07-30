@@ -1,0 +1,13 @@
+9  yum update
+10  sudo yum update
+12  sudo yum install httpd
+15  cat /etc/system-release
+19  chkconfig | grep httpd
+23  sudo chkconfig httpd on
+24  chkconfig | grep httpd
+25  sudo reboot
+31  sudo /etc/init.d/httpd status
+33  cd /var/www/html/
+37  sudo touch index.html
+41  sudo vim index.html 
+42  cat index.html 

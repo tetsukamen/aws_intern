@@ -1,0 +1,5 @@
+91  sudo htpasswd -c -b /etc/httpd/conf/.htpasswd amazon candidate
+93  sudo vim /etc/httpd/conf/httpd.conf
+99  sudo mkdir /var/www/html/secret
+100  sudo vim /var/www/html/secret/index.html
+103  sudo reboot

@@ -1,0 +1,12 @@
+162  sudo mkdir stocker
+163  sudo vim stocker/index.php
+164  sudo vim stocker/functions.php
+265  sudo yum install mysql-server mysql
+266  sudo chkconfig mysqld on
+267  chkconfig --list | grep mysql
+268  sudo service mysqld status
+269  sudo service mysqld start
+280  mysql -u root
+321  sudo yum install php-mysqli -y
+322  systemctl restart httpd.service
+323  sudo reboot;
